@@ -5,11 +5,13 @@
 }
 
 .experience__container > div {
+  margin: 0 auto;
   background-color: var(--color-bg-variant);
   padding: 2.4rem 5rem;
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
+  width: 30rem;
 }
 
 .experience__container > div:hover {

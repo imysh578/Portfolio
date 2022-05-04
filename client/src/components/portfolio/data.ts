@@ -1,6 +1,6 @@
-import IMG1 from "/images/portfolio1.gif"
-import IMG2 from "/images/portfolio1.jpg"
-import IMG3 from "/images/portfolio1.jpg"
+import IMG1 from "../../../public/images/portfolio1.gif"
+import IMG2 from "../../../public/images/portfolio1.jpg"
+import IMG3 from "../../../public/images/portfolio1.jpg"
 
 export interface dataType {
   id: number,
@@ -13,7 +13,7 @@ export interface dataType {
 const dataList: dataType[] = [
   {
     id:1,
-    image: IMG1,
+    image: "https://user-images.githubusercontent.com/33863016/166650160-c70ede98-3bf7-4c28-b2ff-aa1009aab19d.gif",
     title: "Music Streaming Platform & ERC721 NFT Market/Auction",
     github: "https://github.com/enum30-BlockChain/Musit",
     demo: ""

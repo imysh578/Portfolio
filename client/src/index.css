@@ -9,7 +9,7 @@ body {
   background-color: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(/images/bg-texture.png);
+  background-image: url(./public/images/bg-texture.png);
 }
 
 html {

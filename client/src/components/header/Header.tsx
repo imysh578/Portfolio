@@ -1,7 +1,6 @@
 import React from 'react'
 import CTA from './CTA'
 import "./header.css"
-import ME from "/images/me.jpg"
 import HeaderSocial from "./HeaderSocial"
 import {BsFillArrowUpCircleFill, BsFillArrowDownCircleFill} from "react-icons/bs"
 
@@ -16,7 +15,7 @@ const Header = () => {
         <HeaderSocial/>
 
         <div className="me">
-          <img src={ME} alt="" />
+          <img src="https://user-images.githubusercontent.com/33863016/166649518-e4d93907-9f34-42b0-9710-8fbc284bffc3.jpg" alt="" />
         </div>
 
         <a href="#contact" className="scroll__down">

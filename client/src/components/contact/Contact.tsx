@@ -2,7 +2,7 @@ import React, { FormEvent, MutableRefObject, useRef } from 'react';
 import "./contact.css"
 import {MdOutlineEmail} from "react-icons/md"
 import {BsFillArrowUpCircleFill, BsInstagram} from "react-icons/bs"
-import VelogLogo from "/images/velog.svg"
+import VelogLogo from "../../../public/images/velog.svg"
 import {SiNaver} from "react-icons/si"
 import emailjs from 'emailjs-com';
 
