@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
-@import "./styles/reset2.css";
+@import "./styles/reset.css";
 @import "./styles/variables.css";
 @import "./styles/general.css";
-@import "./styles/media.css";
 
 body {
   margin: 0;

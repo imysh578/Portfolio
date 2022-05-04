@@ -1,4 +1,4 @@
-import React, { useState, MouseEvent } from 'react'
+import React, { useState, MouseEvent, useEffect } from 'react'
 import "./nav.css"
 import {AiOutlineHome, AiOutlineUser} from "react-icons/ai"
 import {BiBook} from "react-icons/bi"
@@ -7,6 +7,10 @@ import {FaRegEnvelope} from "react-icons/fa"
 
 const Nav = () => {
 	const [activeNav, setActiveNav] = useState('#');
+	
+	useEffect(() => {
+		setActiveNav("#" + window.location.href.split("#").splice(-1)[0]);
+	}, [])
 
 	const navOnClick = (clicked: string) => {
 		setActiveNav(clicked);
