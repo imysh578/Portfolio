@@ -2,7 +2,8 @@ import React, { FormEvent, MutableRefObject, useRef } from 'react';
 import "./contact.css"
 import {MdOutlineEmail} from "react-icons/md"
 import {BsFillArrowUpCircleFill, BsInstagram} from "react-icons/bs"
-import {FaFacebookMessenger} from "react-icons/fa"
+import VelogLogo from "/images/velog.svg"
+import {SiNaver} from "react-icons/si"
 import emailjs from 'emailjs-com';
 
 const Contact = () => {
@@ -38,16 +39,16 @@ const Contact = () => {
 						</a>
 					</article>
 					<article className="contact__option">
-						<FaFacebookMessenger className="contact__option-icon" />
-						<h4>Facebook</h4>
-						<a href="https://www.facebook.com/seokhun.yoon.31/" target="_blank">
+						<SiNaver className="contact__option-icon" />
+						<h4>Naver Blog</h4>
+						<a href="https://blog.naver.com/yse1030" target="_blank">
 							Click to Move
 						</a>
 					</article>
 					<article className="contact__option">
-						<BsInstagram className="contact__option-icon" />
-						<h4>Instagram</h4>
-						<a href="https://www.instagram.com/_sokuri/" target="_blank">
+						<img src={VelogLogo}  className="contact__option-icon" alt="" />
+						<h4>Velog</h4>
+						<a href="https://velog.io/@imysh578" target="_blank">
 							Click to Move
 						</a>
 					</article>

@@ -1,6 +1,5 @@
 import React from "react"
 import './App.css'
-// import "./styles/general.css"
 import Header from './components/header/Header'
 import Nav from './components/nav/Nav'
 import About from './components/about/About'
