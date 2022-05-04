@@ -35,6 +35,8 @@
 
 .portfolio__item-cta {
   display: flex;
+  flex-direction: row-reverse;
+
   gap: 1rem;
   margin-bottom: 1rem;
 }

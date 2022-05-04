@@ -2,7 +2,6 @@ import React, { FormEvent, MutableRefObject, useRef } from 'react';
 import "./contact.css"
 import {MdOutlineEmail} from "react-icons/md"
 import {BsFillArrowUpCircleFill, BsInstagram} from "react-icons/bs"
-import VelogLogo from "../../../public/images/velog.svg"
 import {SiNaver} from "react-icons/si"
 import emailjs from 'emailjs-com';
 import Velog from "./Velog"
@@ -48,7 +47,6 @@ const Contact = () => {
 					</article>
 					<article className="contact__option">
 						<Velog />
-						<img src={VelogLogo}  className="contact__option-icon" alt="" />
 						<h4>Velog</h4>
 						<a href="https://velog.io/@imysh578" target="_blank">
 							Click to Move
