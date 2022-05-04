@@ -1,6 +1,6 @@
 import React from 'react'
-import "./testimonials.css"
-import Testimonial from "./Testimonial"
+import "./gallery.css"
+import Card from "./Card"
 import dataList, { dataType } from './data'
 
 // import Swiper core and required modules
@@ -14,14 +14,14 @@ import 'swiper/css/pagination';
 
 
 
-const Testimonials = () => {
+const Gallery = () => {
   return (
-		<section id="testimonials">
-			<h5>Review from client</h5>
-			<h2>Testimonials</h2>
+		<section id="gallery">
+			<h5>Projects GIF</h5>
+			<h2>Gallery</h2>
 
 			<Swiper
-				className="container testimonials__container"
+				className="container gallery__container"
 				// install Swiper modules
 				modules={[Pagination]}
 				spaceBetween={40}
@@ -30,7 +30,7 @@ const Testimonials = () => {
 			>
 				{dataList.map((data: dataType, index: number) => (
 					<SwiperSlide key={index}>
-						<Testimonial data={data}/>
+						<Card data={data}/>
 					</SwiperSlide>
 				))}
 			</Swiper>
@@ -38,4 +38,4 @@ const Testimonials = () => {
 	);
 }
 
-export default Testimonials
+export default Gallery

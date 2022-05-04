@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: 30% 58%;
   gap: 12%;
+  position: relative;
 }
 
 .contact__options {
@@ -21,7 +22,6 @@
 }
 
 .contact__option:hover {
-  background-color: transparent;
   border-color: var(--color-primary-variant);
 }
 
@@ -53,11 +53,24 @@ input, textarea {
   color: var(--color-white);
 }
 
+/* ============== SCROLL UP ============== */
+/* icon */
+.scroll__up {
+  position: absolute;
+  right: 0rem;
+  bottom: 5rem;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
 /* ================== MEDIA QUERIES (MEDIUM DEVIES) ==================== */
 @media screen and (max-width: 1024px) {
   .container.contact__container {
     grid-template-columns: 1fr;
     gap: 2rem;
+  }
+  .scroll__up {
+    display: none;
   }
 }
 
@@ -65,5 +78,8 @@ input, textarea {
 @media screen and (max-width: 600px) {
   .container.contact__container {
     width: var(--container-width-sm);
+  }
+  .scroll__up {
+    display: none;
   }
 }

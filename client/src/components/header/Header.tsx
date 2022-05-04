@@ -1,9 +1,9 @@
 import React from 'react'
 import CTA from './CTA'
 import "./header.css"
-import ME from "/images/me.png"
+import ME from "/images/me.jpg"
 import HeaderSocial from "./HeaderSocial"
-import {BiArrowToBottom} from "react-icons/bi"
+import {BsFillArrowUpCircleFill, BsFillArrowDownCircleFill} from "react-icons/bs"
 
 const Header = () => {
   return (
@@ -20,8 +20,7 @@ const Header = () => {
         </div>
 
         <a href="#contact" className="scroll__down">
-          {/* <BiArrowToBottom /> */}
-          Scroll Down
+          <BsFillArrowDownCircleFill/>
         </a>
       </header>
     </header>

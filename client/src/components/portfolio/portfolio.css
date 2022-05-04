@@ -14,12 +14,17 @@
 
 .portfolio__item:hover {
   border-color: var(--color-primary-variant);
-  background-color: transparent;
 }
 
 .portfolio__item-image {
   border-radius: 1.5rem;
   overflow: hidden;
+  height: 50%;
+}
+
+.portfolio__item-image img {
+  height: 100%;
+  width: 100%;
 }
 
 .portfolio__item h3 {
@@ -35,8 +40,12 @@
 /* ================== MEDIA QUERIES (MEDIUM DEVIES) ==================== */
 @media screen and (max-width: 1024px) {
   .portfolio__container {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 1.2rem;
+  }
+  .portfolio__container > article {
+    width: 80%;
+    margin: 0 auto;
   }
 }
 
