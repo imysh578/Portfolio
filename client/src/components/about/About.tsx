@@ -45,7 +45,7 @@ const About = () => {
 						place to introduce myself.This is the place to introduce myself.
 					</p>
           
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <a href="#contact" className='btn btn-primary'>Contact Me</a>
 				</div>
 			</div>
 		</section>
