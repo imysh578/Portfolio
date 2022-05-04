@@ -2,6 +2,7 @@
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;
+  transition: var(--transition);
 }
 
 h1, h2, h3, h4, h5 {

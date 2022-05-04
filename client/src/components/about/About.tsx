@@ -1,6 +1,6 @@
 import React from 'react'
 import "./about.css"
-import { FaAward } from 'react-icons/fa'
+import { BiBuildings } from 'react-icons/bi'
 import { IoMdSchool } from 'react-icons/io'
 import { VscFolderLibrary } from 'react-icons/vsc'
 
@@ -27,7 +27,7 @@ const About = () => {
 						</article>
 
 						<article className="about__card">
-							<FaAward className="about__icon" />
+							<BiBuildings className="about__icon" />
 							<h5>Career</h5>
 							<small>Philips Korea</small><br/>
 							<small>Apr 2019 ~ Jun 2021</small>
@@ -42,10 +42,12 @@ const About = () => {
 					</div>
 
 					<p>
-						This is the place to introduce myself. This is the place to
-						introduce myself. This is the place to introduce myself.This is the
-						place to introduce myself.This is the place to introduce myself.
+						I have experience to create ERC721 NFT contract, NFT marketplace and auction based on Ethereum.
+						For now I would like to develop DApps based on various networks, not only Ethereum.
+						In the future, I want to develop a blockchain core or a cross-chain bridge.
+						Currently I'm interested in Go and Rust.
 					</p>
+					<h3>Be Positive, Passionate, Professional!</h3>
           
           <a href="#contact" className='btn btn-primary'>Contact Me</a>
 				</div>
