@@ -2,7 +2,7 @@ import AVTR1 from "/images/avatar1.jpg"
 
 export interface dataType {
   id: number,
-  image: AVTR1,
+  image: string,
   client: string,
   review: string,
 }
